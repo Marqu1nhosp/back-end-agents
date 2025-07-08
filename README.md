@@ -75,6 +75,12 @@ PORT=3333
 
 ### 6. Migrações e Seeds
 
+- Rodar migrações:
+
+  ```bash
+  npx drizzle-kit migrates
+  ```
+
 - Rodar seeds:
 
   ```bash
