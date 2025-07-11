@@ -36,10 +36,10 @@ GET {{baseUrl}}/rooms/{{roomId}}/questions
 
 # Create Room
 # @name createQuestion
-POST {{baseUrl}}/rooms/{{roomId}}/questions
+POST {{baseUrl}}/rooms/86f4ea87-e045-4445-ad56-447396d8cb69/questions
 Accept: application/json
 Content-Type: application/json
 
 {
-    "question": "testetetetet"
+    "question": "O que é VueJS e a sua diferença entre React?"
 }
